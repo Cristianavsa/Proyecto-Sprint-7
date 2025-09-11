@@ -5,10 +5,10 @@ import streamlit as st
 import plotly.express as px
 
 # Leemos el archivo
-car_data = pd.read_csv(
-    # leer los datos del archivo
-    'C:/Users/Cristian/OneDrive/Documents/Cristian Avila/Tripleten/Proyecto Sprint 7/vehicles_us.csv')
+car_data = pd.read_csv('vehicles_us.csv')
 
+    # leer los datos del archivo
+    
 # Contenido de la aplicacion
 
 # Encabezado
